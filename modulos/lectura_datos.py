@@ -14,7 +14,7 @@ def login():
     return operario,fecha,hora
     
 def leer_datos_plc():
-    archivo=open("./datos/sensores.json","r", encoding="utf-8")
+    archivo=open("datos/sensores.json","r", encoding="utf-8")
     datos = json.load(archivo)
 
     temperatura_sala = float(datos['temperatura_sala'])

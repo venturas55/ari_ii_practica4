@@ -21,3 +21,16 @@ El programa deberá realizar las siguientes tareas:
 
 
 El contador de horas en el simulador_plc.py se ha modificado para que vaya incrementando de a uno, siempre.
+
+
+
+##REALIZAR EJECUTABLE
+Instalar pyinstaller con:   python -m pip install pyinstaller
+Ejecutarlo correctamente:   python -m PyInstaller --onefile main.py
+Comprobar instalacion :     python -m PyInstaller --version
+
+
+CREAR EL EJECUTABLE CON:
+    python -m PyInstaller --onefile --name HVAC --icon assets\icono.ico  --add-data "datos/sensores.json;datos" --add-data "logs/registro.txt;registro"  main.py 
+
+Y copiarlo en el raiz, al mismo nivel que main.py para que funcione el acceso a archivos.
