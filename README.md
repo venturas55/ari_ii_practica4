@@ -34,3 +34,4 @@ CREAR EL EJECUTABLE CON:
     python -m PyInstaller --onefile --name HVAC --icon assets\icono.ico  --add-data "datos/sensores.json;datos" --add-data "logs/registro.txt;registro"  main.py 
 
 Y copiarlo en el raiz, al mismo nivel que main.py para que funcione el acceso a archivos.
+En la lectura por teclado, se tratan las variables True/False o automatico/manual con una nueva funcion

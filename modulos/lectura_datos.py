@@ -42,7 +42,13 @@ def leer_datos_plc():
     archivo.close()
     return temperatura_sala,temperatura_exterior,temperatura_motor,humedad_sala,presion_aire,velocidad_ventilador,consumo_kw,vibracion_motor,contador_horas,estado_sistema,modo_operacion,alarma_activa,sensor_filtro,nivel_ruido,flujo_aire
 
-  
+def traducir_booleanos(estado_sistema, modo_operacion, alarma_activa, sensor_filtro):
+    estado_sistema = str(estado_sistema).lower() == 's'
+    modo_operacion = 'automatico' if str(modo_operacion).lower() == 'a' else 'manual'
+    alarma_activa = str(alarma_activa).lower() == 's'
+    sensor_filtro = str(sensor_filtro).lower() == 's'
+    return estado_sistema, modo_operacion, alarma_activa, sensor_filtro
+
 def introduccion_Datos():
     print("====INTRODUCCION MANUAL DE DATOS=====\n")
     temperatura_sala = float(input("Introduzca temperatura sala"))
