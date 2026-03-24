@@ -20,7 +20,7 @@ def generar_datos():
 
         "vibracion_motor": round(random.uniform(0.5, 1.5), 1),
 
-        "contador_horas": round(random.uniform(2000, 4000), 0),
+        #"contador_horas": round(random.uniform(2000, 4000), 0),
 
         "estado_sistema": random.choice([True, True, True, False]),
         "modo_operacion": random.choice(["automatico", "manual"]),
@@ -37,8 +37,12 @@ while True:
 
     datos = generar_datos()
 
-    with open(ARCHIVO, "w") as archivo:
+    with open(ARCHIVO, "r+") as archivo:
+        contenido=json.load(archivo)
+        datos['contador_horas']=int(contenido['contador_horas'])+1
+        archivo.seek(0) #vuelve a indice inicial
         json.dump(datos, archivo, indent=4)
+        archivo.truncate() #eliminar sobrante
 
     print("Datos actualizados")
 

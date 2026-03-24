@@ -16,4 +16,8 @@ def consumo_total(consumo,horas):
 def salto_termico(temp_ext,temp_int):
     return temp_ext-temp_int
 
+def horas_para_mantenimiento(valor):
+    return round((10000-valor)/12)
+
+
 
