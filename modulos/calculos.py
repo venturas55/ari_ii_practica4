@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Librería de calculos de procesos industriales.
 Incluye funciones reutilizables para sensores y actuadores.
@@ -16,6 +15,7 @@ def consumo_total(consumo,horas):
 def salto_termico(temp_ext,temp_int):
     return temp_ext-temp_int
 
+#funcion que recibe el numero de horas en funcionamiento y devuelve el numero de dias hasta la proxima revision estimando un uso de 12h diarias.
 def horas_para_mantenimiento(valor):
     return round((10000-valor)/12)
 

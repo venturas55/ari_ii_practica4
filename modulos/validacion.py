@@ -1,3 +1,8 @@
+"""
+Validaciones para comprobar que parametros estan dentro de los rangos
+Se usan las constantes importadas como limites.
+"""
+
 from config.constantes import *
 
 def validarTemperaturaSala(variable):
