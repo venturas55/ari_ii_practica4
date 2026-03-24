@@ -1,17 +1,17 @@
 {
-    "temperatura_sala": 23.3,
-    "temperatura_exterior": 9.2,
-    "temperatura_motor": 43.0,
-    "humedad_sala": 46.0,
-    "presion_aire": 1.29,
-    "velocidad_ventilador": 1435,
-    "consumo_kw": 7.11,
-    "vibracion_motor": 0.8,
+    "temperatura_sala": 23.7,
+    "temperatura_exterior": 8.5,
+    "temperatura_motor": 24.7,
+    "humedad_sala": 50.2,
+    "presion_aire": 1.45,
+    "velocidad_ventilador": 1380,
+    "consumo_kw": 7.28,
+    "vibracion_motor": 1.1,
     "estado_sistema": true,
     "modo_operacion": "automatico",
     "alarma_activa": false,
     "sensor_filtro": true,
-    "nivel_ruido": 59.1,
-    "flujo_aire": 359.5,
-    "contador_horas": 2778
+    "nivel_ruido": 62.6,
+    "flujo_aire": 357.1,
+    "contador_horas": 2779
 }
