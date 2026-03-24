@@ -1,0 +1,67 @@
+[26/02/1982 10:10]
+Operario: Adrian
+Temperatura: None
+Presion: None
+Produccion: None
+Estado maquina: False
+------------------------------------------
+
+[2333 1111]
+Operario: asd
+Temperatura: None
+Presion: None
+Produccion: None
+Estado maquina: False
+------------------------------------------
+
+[2333 1111]
+Operario: asd
+Temperatura: 3
+Presion: 33
+Produccion: 3333
+Estado maquina: False
+------------------------------------------
+
+[234 23456]
+Operario: asd
+Temperatura: None
+Presion: None
+Produccion: None
+Estado maquina: False
+------------------------------------------
+
+[26/02/1982 10:10]
+Operario: adrian
+Temperatura: None
+Presion: None
+Produccion: None
+Estado maquina: False
+------------------------------------------
+
+[26/02/1982 10:10]
+Operario: adrian
+Temperatura: None
+Presion: None
+Produccion: None
+Estado maquina: False
+------------------------------------------
+
+[22/22/22 11:11]
+Operario: adrian
+Temp sala: 23.6
+Temp ext: 4.5
+Temp Motor: 50.6
+Humedad: 71.9
+Presion: 0.94
+Velocidad ventilador: 1414 
+Consumo: 7.29 kw
+Vibracion motor: 1.2
+ Contador horas: 2384 h
+Estado: False
+Modo operacion: manual
+alarmas: True
+Sensor filtro: False
+Nivel ruido: 74.6
+Flujo aire: 340.4
+  ----------------------------------------------------
+
