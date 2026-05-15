@@ -3,9 +3,9 @@ from .calculos import *
 from .validacion import *
 
 def login():
-    operario=input("Introduzca nombre de operario")
-    fecha=input("Introduzca la fecha dd/mm/yyyy")
-    hora=input("Introduzca la hora en formato hh:mm")
+    operario=input("Introduzca nombre de operario\n")
+    fecha=input("Introduzca la fecha dd/mm/yyyy\n")
+    hora=input("Introduzca la hora en formato hh:mm\n")
 
     print("\n===================SISTEMA DE MONITORIZACION=================\n\n")
     print(f"Operario: {operario}")

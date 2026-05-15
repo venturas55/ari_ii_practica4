@@ -1,0 +1,17 @@
+{
+    "temperatura_sala": 23.1,
+    "temperatura_exterior": 16.7,
+    "temperatura_motor": 73.6,
+    "humedad_sala": 54.0,
+    "presion_aire": 1.06,
+    "velocidad_ventilador": 1323,
+    "consumo_kw": 7.55,
+    "vibracion_motor": 0.6,
+    "estado_sistema": true,
+    "modo_operacion": "automatico",
+    "alarma_activa": false,
+    "sensor_filtro": true,
+    "nivel_ruido": 66.3,
+    "flujo_aire": 350.3,
+    "contador_horas": 2883
+}
